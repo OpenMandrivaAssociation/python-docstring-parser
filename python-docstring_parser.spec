@@ -13,6 +13,7 @@ BuildArch:      noarch
 
 BuildRequires:  python3-devel
 BuildRequires:  python3dist(setuptools)
+BuildRequires:  python3dist(pytest)
 
 %description
 Parse Python docstrings. Currently support ReST, Google, and
