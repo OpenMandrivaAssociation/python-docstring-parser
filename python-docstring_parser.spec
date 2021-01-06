@@ -14,6 +14,7 @@ BuildArch:      noarch
 BuildRequires:  python3-devel
 BuildRequires:  python3dist(setuptools)
 BuildRequires:  python3dist(pytest)
+BuildRequires:	python3dist(mock)
 
 %description
 Parse Python docstrings. Currently support ReST, Google, and
@@ -33,8 +34,8 @@ rm -rf %{pypi_name}.egg-info
 %install
 %py3_install
 
-#%check
-#%%{__python3} setup.py test
+%check
+%%{__python3} setup.py test
 
 %files -n python-%{pypi_name}
 %license LICENSE.md
