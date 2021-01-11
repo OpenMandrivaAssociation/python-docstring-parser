@@ -1,9 +1,9 @@
 # Created by pyp2rpm-3.3.5
 %global pypi_name docstring_parser
-%global std_name docsting-parser
+%global std_name docstring-parser
 Name:           python-%{std_name}
 Version:        0.7.3
-Release:        3
+Release:        4
 Summary:        Parse Python docstrings
 Group:          Development/Python
 License:        MIT
