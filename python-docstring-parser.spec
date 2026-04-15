@@ -1,16 +1,16 @@
-# Created by pyp2rpm-3.3.5
 %define module docstring-parser
 %define oname docstring_parser
 %bcond tests 1
 
 Name:		python-docstring-parser
-Version:	0.17.0
+Version:	0.18.0
 Release:	1
 Summary:	Parse Python docstrings
 Group:		Development/Python
 License:	MIT
 URL:		https://github.com/rr-/docstring_parser
-Source0:%{URL}/archive/%{version}/%{name}-%{version}.tar.gz
+Source0:	%{URL}/archive/%{version}/%{name}-%{version}.tar.gz
+
 BuildSystem:	python
 BuildArch:	noarch
 BuildRequires:	pkgconfig(python3)
