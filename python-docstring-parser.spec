@@ -4,7 +4,7 @@
 
 Name:		python-docstring-parser
 Version:	0.18.0
-Release:	1
+Release:	2
 Summary:	Parse Python docstrings
 Group:		Development/Python
 License:	MIT
